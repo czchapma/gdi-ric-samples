@@ -1,17 +1,20 @@
 body {
-	/*TODO: Pick a color and background color*/
-	background-color: #493F4C;
+	/*TODO: Set the background-color
+	For possible color palletes visit https://coolors.co/app
+	Or just google "html colors" and pick one you like*/
 }
 
-/*CODEME: Potential challenge, default width to 0 and have them figure out the width*/
 h1 {
-	width: 691px;
-	margin: auto;
+	/*TODO:Center the h1 text
+	  Hint: use width and margin
+	  Hint: look back at last week's slides tinyurl.com/GDIRIC*/
 	margin-top: 15px;
 }
 
 .navbar-nav > li > a{
-	color: #F9EFB3;
+	/* TODO: Set the color of the navigtion bar links
+	For possible color palletes visit https://coolors.co/app
+	Or just google "html colors" and pick one you like*/
 }
 
 .navbar-nav > li > a:hover {
@@ -19,16 +22,27 @@ h1 {
 }
 
 .container {
+	/* TODO: Depending on how much text you added to index.html,
+		you may want to decrease margin-top*/
 	margin-top: 300px;
-	color: #F9EFB3;
+
+	/* TODO: Set the background-color
+	For possible color palletes visit https://coolors.co/app
+	Or just google "html colors" and pick one you like*/
 }
 
-.container p {
-	width: 685px;
-	margin: auto;
-}
+
+/*TODO: Style your paragraph (<p>)
+	1. Select a paragraph using css, remember that it has an id of "intro"
+		Review week 4 notes if you forget how to do that 
+	2. Inside the {} Change the font-size to a size you like
+		we recommend using pixels (ex: 10px), increase until the size is what you want
+	3. Inside the {}, center the paragraph, like you did for h1
+*/
+
 
 .container .image {
-	margin: auto;
-	width: 200px;
+	/*TODO:Center the image
+	  Hint: use width and margin
+	  Hint: look back at last week's slides tinyurl.com/GDIRIC*/
 }
