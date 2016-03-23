@@ -47,3 +47,24 @@ a:hover {
 	  Hint: look back at last week's slides tinyurl.com/GDIRIC
 	  Hint: if you have trouble with width, try changing the width in the html;*/
 }
+
+.social ul li {
+	/*TODO BONUS - Make the Social Media icons look nicer
+	 1. Avoid using a bulletted list, write: "list-style: none;";
+	 2. Use padding to space out the icons
+	 3. List Items (<li>) are block elements, to make them appear in 1 line,
+	 what do you need them to be treated as?  Hint: display;
+	 */
+}
+
+.social i {
+	/*TODO BONUS - Adjust the size of the icons
+	Essentially CSS is treating the icons like text
+	1. Declare a width and height, start with 30px but choose a number that looks good to you
+	2. Set the color and background-color (start with white and gray, but choose a color you like)
+	3. Set a font-size (start with 20px and work up)
+	4. Center the "text"
+	5. Add some padding-top
+	6. Use border-radius: 50%; to create a circle
+	7. The rest is handled for you in socialmedia.css, feel free to poke around to see how it's implemented*/
+}
